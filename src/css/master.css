@@ -82,3 +82,16 @@ p.paragraph {
     text-align: center;
     border: 1px solid black;
 }
+
+#about {
+    margin: auto;
+    width: 75%;
+    height: 100%;
+    border: 1px solid black;
+}
+
+.pp {
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
