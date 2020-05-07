@@ -67,3 +67,13 @@ header p {
 p.title {
     font-size: 25px;
 }
+
+#warn {
+    background-color: red;
+    color: white;
+    margin: auto;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    border: 1px solid black;
+}
