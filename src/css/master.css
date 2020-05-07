@@ -4,23 +4,25 @@ body {
     background-color: white;
     color: black;
     margin: 0;
-    padding: 0;
 }
 
 header {
+    position: relative;
+    top: 0;
     width: 100%;
     height: 100px;
     background-color: aqua;
 }
 
 .logo {
-    position: relative;
-    top: 0; left: 0;
+    float: left;
     height: 100%;
     width: auto;
 }
 
 header p {
+    position: relative;
+    top: 0; left: 10px;
     font-family: 'Modak', cursive;
     font-size: 75px;
     color: white;
