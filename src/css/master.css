@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Modak&display=swap');
+
 body {
     background-color: white;
     color: black;
@@ -11,6 +13,21 @@ header {
 }
 
 .logo {
+    float: left;
     height: 100%;
     width: auto;
+}
+
+header p {
+    font-family: 'Modak', cursive;
+    font-size: 75px;
+    color: white;
+}
+
+#menu {
+    margin: 0;
+}
+
+#menu p {
+    color: black;
 }
