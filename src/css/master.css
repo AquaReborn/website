@@ -55,3 +55,11 @@ header p {
 .mlink:hover {
     background-color: grey;
 }
+
+#content {
+    margin: auto;
+    width: 75%;
+    height: 100%;
+    text-align: center;
+    border: 1px solid black;
+}
