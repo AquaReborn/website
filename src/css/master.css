@@ -68,6 +68,11 @@ p.title {
     font-size: 25px;
 }
 
+p.paragraph {
+    margin: auto;
+    width: 75%;
+}
+
 #warn {
     background-color: red;
     color: white;
