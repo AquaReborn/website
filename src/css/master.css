@@ -63,3 +63,7 @@ header p {
     text-align: center;
     border: 1px solid black;
 }
+
+p.title {
+    font-size: 25px;
+}
