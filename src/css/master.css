@@ -4,6 +4,7 @@ body {
     background-color: white;
     color: black;
     margin: 0;
+    padding: 0;
 }
 
 header {
@@ -13,7 +14,8 @@ header {
 }
 
 .logo {
-    float: left;
+    position: relative;
+    top: 0; left: 0;
     height: 100%;
     width: auto;
 }
@@ -26,8 +28,10 @@ header p {
 
 #menu {
     margin: 0;
+    font-family: 'Modak', cursive;
 }
 
 #menu p {
     color: black;
+    font-size: 50px;
 }
