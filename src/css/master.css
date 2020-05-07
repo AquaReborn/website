@@ -86,7 +86,7 @@ p.paragraph {
 #about {
     margin: auto;
     width: 75%;
-    height: 100%;
+    height: 170px;
     border: 1px solid black;
 }
 
@@ -94,4 +94,28 @@ p.paragraph {
     margin-top: 10px;
     margin-left: 10px;
     margin-bottom: 10px;
+}
+
+.ppimg {
+    height: 150px;
+    border-radius: 15%;
+}
+
+.abtitle {
+    font-size: 25px;
+    position: relative;
+    left: 175px; top: -150px;
+}
+
+.abtext {
+    font-size: 15px;
+    position: relative;
+    left: 175px; top: -150px;
+}
+
+.abquote {
+    font-style: italic;
+    font-size: 15px;
+    position: relative;
+    left: 175px; top: -150px;
 }
