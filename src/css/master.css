@@ -21,6 +21,7 @@ header {
 }
 
 header p {
+    margin: 0;
     position: relative;
     top: 0; left: 10px;
     font-family: 'Modak', cursive;
