@@ -119,3 +119,21 @@ p.paragraph {
     position: relative;
     left: 175px; top: -150px;
 }
+
+.overlay {
+    display: inline-block;
+    position: relative;
+}
+
+.icon-poisson {
+    width: 25px;
+    position: absolute;
+    bottom: 2px; right: 2px;
+    transition: 0.5s;
+}
+
+.overlay:hover .icon-poisson {
+    width: 35px;
+    position: absolute;
+    bottom: 2px; right: 2px;
+}
