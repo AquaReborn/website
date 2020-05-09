@@ -1,10 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Modak&display=swap');
 
+h1, p, body {
+    margin: 0;
+}
+
 body {
     background-image: url("../img/bulle.png");
     background: pos;
     color: black;
-    margin: 0;
 }
 
 a {
@@ -12,8 +15,6 @@ a {
 }
 
 header {
-    position: relative;
-    top: 0;
     width: 100%;
     height: 100px;
     background-color: aqua;
@@ -27,9 +28,8 @@ header img {
 
 header h1 {
     font-weight: normal;
-    margin: 0;
     position: relative;
-    top: 0; left: 10px;
+    left: 10px;
     font-family: 'Modak', cursive;
     font-size: 75px;
     color: white;
@@ -37,13 +37,11 @@ header h1 {
 
 nav {
     text-align: center;
-    margin: 0;
     height: 30px;
     background-color: black;
 }
 
 nav p {
-    margin: 0;
     color: white;
     font-size: 20px;
 }
