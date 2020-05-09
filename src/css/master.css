@@ -79,3 +79,27 @@ section p {
     text-align: center;
     border: 1px solid black;
 }
+
+article {
+    height: 180px;
+    border: 1px solid black;
+    padding: 5px;
+    display: flex;
+    width: 75%;
+    margin: auto;
+    background-color: white;
+}
+
+article img {
+    height: 180px;
+    border-radius: 15%;
+    border: 1px solid black;
+}
+
+blockquote {
+    font-style: italic;
+}
+
+.desc {
+    margin: 15px;
+}
