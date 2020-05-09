@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Modak&display=swap');
 
-h1, p, body {
+h1, nav p, body {
     margin: 0;
 }
 
@@ -78,4 +78,48 @@ section p {
     height: 100%;
     text-align: center;
     border: 1px solid black;
+}
+
+/*J'ai recollé à l'arrache ce que j'avais fait*/
+article {
+    height: 180px;
+    background: gray;
+    border: solid black;
+    padding: 5px;
+    display: flex;
+    width: 75%;
+    margin: 10px auto;
+}
+
+.ppimg {
+    height: 100%;
+    border-radius: 13px;
+}
+
+.description {
+    margin: 15px;
+}
+
+.abtitle {
+    font-size: 1.5em;
+}
+
+.abquote {
+    font-style: italic;
+}
+
+.overlay {
+    position: relative; /*Pour positionner le petit poisson dedans*/
+    height: 100%;
+}
+
+.icone-poisson {
+    position: absolute;
+    width: 25px;
+    bottom: 0; right: 0;
+    transition: 0.2s;
+}
+
+.overlay:hover .icone-poisson {
+    transform: scale(1.5);
 }
