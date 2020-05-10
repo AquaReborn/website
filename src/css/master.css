@@ -16,7 +16,6 @@ a {
 }
 
 header {
-    width: 100%;
     height: 100px;
     background-color: rgb(40,69,166);
 }
@@ -104,4 +103,18 @@ blockquote {
 
 .desc {
     margin: 15px;
+}
+
+.plink {
+    font-family: 'Modak', cursive;
+    font-weight: lighter;
+    font-size: 20px;
+    color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: rgb(40, 90, 166);
+}
+
+.bulink {
+    text-align: center;
 }
