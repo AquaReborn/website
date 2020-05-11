@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Modak&display=swap');
 
-/*Animation*/
+/*Animations*/
 @keyframes descente {
     from {
         background-position: 0 0;
@@ -16,10 +16,11 @@ h1, p, body {
 }
 
 body {
-    background-image: url("../img/bulle.png");
+    /* background-image: url("../img/bubble/1024x1024.png");
     background-color: rgb(40, 88, 166);
+    background-size: 128px 128px; */
     color: black;
-    animation: descente 1.5s linear infinite;
+    /* animation: descente 1.5s linear infinite; */
 }
 
 a {
@@ -29,6 +30,30 @@ a {
 header {
     height: 100px;
     background-color: rgb(40,69,166);
+}
+
+h1, h2, h3,
+h4, h5, h6 {
+    font-weight: bold;
+    color: black;
+}
+h1 {
+    font-size: 32px;
+}
+h2 {
+    font-size: 33px;
+}
+h3 {
+    font-size: 22px;
+}
+h4 {
+    font-size: 18px;
+}
+h5 {
+    font-size: 16px;
+}
+h6 {
+    font-size: 13px;
 }
 
 header img {
@@ -55,7 +80,7 @@ nav {
 nav a.mlink {
     color: white;
     font-size: 21px;
-    vetical-align: center;
+    vertical-align: center;
     padding: 0 5px;
     font-family: 'Modak', cursive;
     background-color: rgba(0, 0, 0, 0);
@@ -124,6 +149,16 @@ blockquote {
     border: 1px solid black;
     border-radius: 5px;
     background-color: rgb(40, 90, 166);
+}
+
+canvas.back-anim {
+    position: fixed;
+    display: block;
+    top: 0; bottom: 0;
+    left: 0; right: 0;
+    z-index: -1;
+    background-color: #c9f4f4;
+
 }
 
 .bulink {

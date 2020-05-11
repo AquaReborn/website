@@ -3,17 +3,21 @@
     <head>
         <title>AquaSpace</title>
         <meta charset="utf-8"/>
-        <link rel="stylesheet" href="../src/css/master.css"/>
-        <link rel="icon" href="../src/img/logo.png"/>
+        <base href="../">
+        <script src="src/js/prototypes.js"></script>
+        <script src="src/js/CanvAnim.js"></script>
+        <link rel="stylesheet" href="src/css/reset.css">
+        <link rel="stylesheet" href="src/css/master.css"/>
+        <link rel="icon" href="src/img/logo.png"/>
     </head>
     <body>
         <header>
-            <img src="../src/img/logo.png" alt="logo" class="logo"/>
+            <img src="src/img/logo.png" alt="logo" class="logo"/>
             <h1>AquaSpace</h1>
         </header>
          <nav>
-             <a class="mlink" href="../index.html">Accueil</a>
-             <a class="mlink" href="../projects/projects.html">Nos Projet</a>
+             <a class="mlink" href="index.html">Accueil</a>
+             <a class="mlink" href="projects/projects.html">Nos Projet</a>
              <a class="mlink" href="#">À propos</a>
          </nav>
         <section>
@@ -29,9 +33,9 @@
             </div>
         </article>
         <article>
-            <img src="https://avatars0.githubusercontent.com/u/44026536?s=460&u=cf947314bd6fb56ff82b35de13ba572ae150680b&v=4" alt="Avatar de Morrow"/>
+            <img src="https://avatars0.githubusercontent.com/u/44026536?s=460&u=cf947314bd6fb56ff82b35de13ba572ae150680b&v=4" alt="Avatar de Tom"/>
             <div class="desc">
-                <h2>Morrow</h2>
+                <h2>Tom</h2>
                 <p>Administrateur, développeur & graphiste</p>
             </div>
         </article>
@@ -42,6 +46,8 @@
                 <p>Administrateur & développeur</p>
             </div>
         </article>
+        <canvas class="back-anim"></canvas>
+        <script src="src/js/back-animation.js"></script>
     </body>
 </html>
 
