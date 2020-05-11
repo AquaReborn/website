@@ -1,5 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Modak&display=swap');
 
+/*Animation*/
+@keyframes descente {
+    from {
+        background-position: 0 0;
+    }
+    to {
+        background-position: 0 128px;
+    }
+}
+
+
 h1, p, body {
     margin: 0;
 }
@@ -9,6 +20,7 @@ body {
     background-color: rgb(40, 88, 166);
     background: pos;
     color: black;
+    animation: descente 2s linear infinite;
 }
 
 a {
