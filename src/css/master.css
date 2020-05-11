@@ -18,9 +18,8 @@ h1, p, body {
 body {
     background-image: url("../img/bulle.png");
     background-color: rgb(40, 88, 166);
-    background: pos;
     color: black;
-    animation: descente 2s linear infinite;
+    animation: descente 1.5s linear infinite;
 }
 
 a {
@@ -54,25 +53,25 @@ nav {
     border: 1px solid black;
 }
 
-nav p {
+nav a.mlink {
     color: white;
-    font-size: 20px;
-}
-
-nav button {
+    font-size: 21px;
+    vetical-align: center;
+    padding: 0 5px;
     font-family: 'Modak', cursive;
     background-color: rgba(0, 0, 0, 0);
     border: 0;
 }
 
-nav button:hover {
+nav a.mlink:hover {
     background-color: rgb(53, 123, 166);
 }
 
-section {
+section, .fil-twitter {
     display: block;
     background-color: white;
     margin: 10px auto;
+    padding: 12px;
     width: 75%;
     height: 100%;
     text-align: center;
