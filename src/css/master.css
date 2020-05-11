@@ -60,7 +60,7 @@ nav button:hover {
 section {
     display: block;
     background-color: white;
-    margin: auto;
+    margin: 10px auto;
     width: 75%;
     height: 100%;
     text-align: center;
@@ -88,7 +88,7 @@ article {
     padding: 5px;
     display: flex;
     width: 75%;
-    margin: auto;
+    margin: 15px auto;
     background-color: white;
 }
 
@@ -118,4 +118,8 @@ blockquote {
 
 .bulink {
     text-align: center;
+}
+
+.desc p {
+    margin: 15px;
 }
