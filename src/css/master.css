@@ -39,8 +39,7 @@ header img {
 
 header h1 {
     font-weight: normal;
-    position: relative;
-    left: 10px;
+    text-indent: 15px;
     font-family: 'Modak', cursive;
     font-size: 75px;
     color: white;
