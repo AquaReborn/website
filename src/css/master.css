@@ -30,6 +30,7 @@ a {
 header {
     height: 100px;
     background-color: rgb(40,69,166);
+    line-height: normal;
 }
 
 h1, h2, h3,
@@ -75,7 +76,9 @@ nav {
     height: 30px;
     background-color: rgb(40, 90, 166);
     border: 1px solid black;
+    line-height: normal;
 }
+
 
 nav a.mlink {
     color: white;
