@@ -134,17 +134,17 @@ article {
     position: relative;
 }
 
-.overlay:hover img.icone-poisson {
+.overlay:hover img.icone {
     transform: scale(1.3);
 }
 
-article img.ppimg {
+article img:not(.icone) {
     height: 180px;
     border-radius: 15%;
     border: 1px solid black;
 }
 
-article img.icone-poisson {
+article img.icone {
     position: absolute;
     bottom: 0; right: 0;
     width: 30px;
