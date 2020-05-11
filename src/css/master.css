@@ -58,6 +58,7 @@ nav button:hover {
 }
 
 section {
+    display: block;
     background-color: white;
     margin: auto;
     width: 75%;
