@@ -74,6 +74,7 @@ header h1 {
 nav {
     position: -webkit-sticky;
     position: sticky;
+    z-index: 1;
     top: -1px;
     display: block;
     text-align: center;
