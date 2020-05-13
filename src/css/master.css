@@ -72,15 +72,26 @@ header h1 {
 }
 
 nav {
+    position: relative;
+    display: block;
     text-align: center;
     height: 30px;
     background-color: rgb(40, 90, 166);
-    border: 1px solid black;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
     line-height: normal;
+}
+nav.fixed {
+    position: fixed;
+    top: 0;
+    border-top: none;
+    width: 100%
 }
 
 
 nav a.mlink {
+    display: inline-block;
+    height: inherit;
     color: white;
     font-size: 21px;
     vertical-align: center;
@@ -98,6 +109,7 @@ section, .fil-twitter {
     display: block;
     background-color: white;
     margin: 10px auto;
+    /* margin-top: 40px; */
     padding: 12px;
     width: 75%;
     height: 100%;
