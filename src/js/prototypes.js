@@ -129,3 +129,8 @@ const Random = {
     }    
 }
 
+// Library d'Éloi
+const ß = document, µ = window;
+EventTarget.prototype.on = EventTarget.prototype.addEventListener
+document.find = document.querySelector
+document.findAll = document.querySelectorAll
