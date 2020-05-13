@@ -1,9 +1,9 @@
-window.addEventListener("load", e => {
-    const header = document.querySelector("header")
-    const nav = document.querySelector("nav")
-    const section = document.querySelector("section")
+window.on("load", e => {
+    const header = document.find("header")
+    const nav = document.find("nav")
+    const section = document.find("section")
 
-    window.addEventListener("scroll", e => {
+    window.on("scroll", e => {
         if (window.scrollY > header.clientHeight) {
             nav.classList.add("fixed")
             section.style.marginTop = "41px"
