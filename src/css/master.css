@@ -31,6 +31,7 @@ header {
     height: 100px;
     background-color: rgb(40,69,166);
     line-height: normal;
+    padding: 3px 1px;
 }
 
 h1, h2, h3,
@@ -146,6 +147,7 @@ article {
 }
 
 .overlay {
+    height: 100%;
     position: relative;
 }
 
@@ -154,7 +156,7 @@ article {
 }
 
 article img:not(.icone) {
-    height: 180px;
+    height: 100%;
     border-radius: 15%;
     border: 1px solid black;
 }
@@ -200,4 +202,37 @@ canvas.back-anim {
 
 .desc p {
     margin: 15px;
+}
+
+
+@media (max-width: 500px) {
+    header {
+        height: 60px;
+    }
+    
+    header h1 {
+        font-size: 40px;
+    }
+    
+    h2 {
+        font-size: 25px;
+    }
+    
+    article.about-article {
+        height: auto;
+    }
+    
+    .overlay {
+        height: 55px;
+    }
+    
+    .overlay img.icone {
+        height: 15px;
+        width: 15px;
+    }
+    
+    article.project-article img {
+        height: 60px;
+    }
+    
 }
