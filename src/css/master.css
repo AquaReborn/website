@@ -24,3 +24,23 @@ header h1 {
     color: white;
     font-family: 'Itim', cursive;
 }
+
+nav {
+    border-top: 1px solid black;
+    text-align: center;
+    padding: 5px;
+    background-color: rgb(57, 93, 190);
+}
+
+nav a {
+    height: 100%;
+    width: 50px;
+    color: white;
+    font-size: 20px;
+    margin-left: 5px;
+    padding: 4px;
+}
+
+nav a:hover {
+    background-color: rgb(74, 103, 184);
+}
