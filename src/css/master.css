@@ -44,3 +44,25 @@ nav a {
 nav a:hover {
     background-color: rgb(74, 103, 184);
 }
+
+section {
+    margin-top: 25px;
+    margin-left: 12.5%;
+    margin-right: 12.5%;
+}
+
+article {
+    margin: 5px;
+    border: 1px solid black;
+}
+
+article h2 {
+    text-align: center;
+    font-size: 25px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+article p {
+    padding: 5px
+}
