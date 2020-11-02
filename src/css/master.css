@@ -46,6 +46,18 @@ nav a:hover {
     background-color: rgb(74, 103, 184);
 }
 
+footer {
+    background-color: rgb(57, 93, 190);
+    height: 20px;
+    width: 100%;
+    position: absolute; bottom: 0;
+}
+
+footer p {
+    text-align: center;
+    color: white;
+}
+
 section {
     margin-top: 25px;
     margin-left: 12.5%;
