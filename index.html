@@ -4,8 +4,26 @@
         <title>AquaSpace</title>
         <meta charset="utf-8"/>
         <meta name="viewport" content="width=device-width"/>
+        <!-- Primary Meta Tags -->
+        <meta name="title" content="AquaSpace">
+        <meta name="description" content="Aqua est un regroupement de trois développeurs passionnées, qui développe des petits projets sans ambition, comme des petits jeux, des logiciels, des sites, des scripts...">
+        <!-- Open Graph / Facebook -->
+        <meta property="og:type" content="website">
+        <meta property="og:url" content="https://aquareborn.github.io/">
+        <meta property="og:title" content="AquaSpace">
+        <meta property="og:description" content="Aqua est un regroupement de trois développeurs passionnées, qui développe des petits projets sans ambition, comme des petits jeux, des logiciels, des sites, des scripts...">
+        <meta property="og:image" content="https://aquareborn.github.io/src/img/aqua_preview.png">
+        <!-- Twitter -->
+        <meta property="twitter:card" content="summary_large_image">
+        <meta property="twitter:url" content="https://aquareborn.github.io/">
+        <meta property="twitter:title" content="AquaSpace">
+        <meta property="twitter:description" content="Aqua est un regroupement de trois développeurs passionnées, qui développe des petits projets sans ambition, comme des petits jeux, des logiciels, des sites, des scripts...">
+        <meta property="twitter:image" content="https://aquareborn.github.io/src/img/aqua_preview.png">
+        <script src="src/js/prototypes.js"></script>
+        <script src="src/js/CanvAnim.js"></script>
         <link rel="stylesheet" href="src/css/reset.css">
-        <link rel="stylesheet" href="src/css/master.css">
+        <link rel="stylesheet" href="src/css/master.css"/>
+        <link rel="icon" href="src/img/logo.png"/>
     </head>
     <body>
         <header>
@@ -14,18 +32,21 @@
         </header>
          <nav>
              <a class="mlink" href="#">Accueil</a>
+             <a class="mlink" href="projects/projects.html">Nos Projet</a>
              <a class="mlink" href="about/about.html">À propos</a>
-        </nav>
+         </nav>
         <section>
-            <article>
-                <h2>Hello world !</h2>
-                <p>Bienvenue sur le site d'Aqua ! Nous sommes trois petits développeurs passionnés, et nous listons ici, nos projets qui nous tiennent à cœur !</p>
-                <p>Merci de toute l'attention que vous nous accorderez !</p>
-            </article>
+            <h2 class="title">Hello world!</h2>
+            <p>Bienvenue sur le site d'Aqua, pour en savoir un peu plus sur nous, lisez la section "À propos"</p>
+            
         </section>
-        <footer>
-            <p>AquaStudio - 2020</p>
-        </footer>
+        <div class="fil-twitter">
+            <a class="twitter-timeline" href="https://twitter.com/_AquaGroup_?ref_src=twsrc%5Etfw"></a> 
+            <script async src="https://platform.twitter.com/widgets.js"></script> 
+        </div>
+        <canvas class="back-anim"></canvas>
+        <script src="/src/js/script.js"></script>
+        <script src="/src/js/back-animation.js"></script>
     </body>
 </html>
 
